@@ -17,7 +17,7 @@ Due to the pandemic flyefit gyms require users to book slots 24hrs before. The a
 * user = "YOUR EMAIL"           
    key = "YOUR PASSWORD"             
    time_ = "11:30"               
-   schedule.every().day.at("11:32").do(login_, user, key, "11:30")
+   schedule.every().day.at("11:32").do(login_, user, key, time_)
   
 * The above will book the "11:30" gymslot for the enduser 24hours before. 
 
