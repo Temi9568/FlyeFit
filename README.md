@@ -8,10 +8,10 @@ Due to the pandemic flyefit gyms require users to book slots 24hrs before. The a
 
 
 # Current Features
-* Program automatically books a gymslot for the enduser at a scheduled time. 
+* Program automatically books a gymslot for the enduser at a scheduled time. [Does as it says] 
 
 # TO DO
-* Implement Re that makes sure the time argument is in the write format.
+* Implement Regular expression that makes sure the 'booking_time' argument is in the write format.
  
  
 # Disclaimer
