@@ -72,8 +72,6 @@ user = "YOUR EMAIL"
 key = "YOUR PASSWORD"
 time_ = "11:30" # Assuming you want to book the 11:30 sesssion 
 
-# login_(user, key, time_)
-
 schedule.every().day.at("11:32").do(login_, user, key, "11:30")
 
 while True:
