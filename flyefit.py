@@ -72,7 +72,7 @@ user = "YOUR EMAIL"
 key = "YOUR PASSWORD"
 time_ = "11:30" # Assuming you want to book the 11:30 sesssion 
 
-schedule.every().day.at("11:32").do(login_, user, key, "11:30")
+schedule.every().day.at("11:32").do(login_, user, key, time_)
 
 while True:
     schedule.run_pending()  # Checks if a task is pending and if so does not exit script until task has been executed
